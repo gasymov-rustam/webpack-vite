@@ -1,0 +1,7 @@
+@import './variables';
+@import './fonts';
+@import './resets';
+
+body {
+  font-family: var(--font-family-main);
+}

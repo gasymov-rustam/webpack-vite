@@ -1,0 +1,72 @@
+:root {
+  --skeleton-color: rgb(197 191 191);
+  --skeleton-shadow: rgba(0 0 0 / 20%);
+
+  /* card width */
+  --card-width: 250px;
+
+  /* background */
+  --background-color: #f7f4f4;
+  --background-color-button: #ac01fc;
+  --background-color-button-hover: #7203a5;
+
+  /* margins */
+  --margin-s: 4px;
+  --margin-m: 8px;
+  --margin-l: 16px;
+  --margin-xl: 32px;
+
+  /* paddings */
+  --padding-s: 4px;
+  --padding-m: 8px;
+  --padding-l: 16px;
+  --padding-xl: 32px;
+
+  /* font family */
+  --font-family-main: 'Montserrat', sans-serif;
+
+  /* s font size */
+  --font-size-s: 12px;
+  --font-line-s: 20px;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+
+  /* m font size */
+  --font-size-m: 16px;
+  --font-line-sm: 24px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  /* l font size */
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  /* xl font size */
+  --font-size-xl: 32px;
+  --font-line-xl: 40px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  /* z - index */
+  --modal-z-index: 100;
+  --overlay-z-index: 50;
+
+  /* colors */
+  --overlay-color: rgba(0 0 0 / 60%);
+  --text-color-white: #fff;
+  --text-color-black: rgb(0 0 0);
+
+  /* breakpoints */
+  --sm-breakpoint: 510px;
+  --md-breakpoint: 730px;
+  --lg-breakpoint: 960px;
+  --xl-breakpoint: 1195px;
+
+  /* border-radius */
+  --button-border-radius: 4px;
+  --modal-border-radius: 12px;
+  --card-border-radius: 10px;
+
+  /* transition-duration */
+  --transition-duration-modal: 500ms;
+  --transition-duration-listbox: 300ms;
+  --transition-duration-overlay: 500ms;
+}
